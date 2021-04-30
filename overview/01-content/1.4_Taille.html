@@ -28,8 +28,7 @@
 <body>
 
   <h1 class="text-center mt-5 display-2">Contenu</h1>
-
-  <h2 class="text-center mt-2 display-4">Couleurs et Backgrounds</h2>
+  <h2 class="text-center display-4">Taille Et Bordures</h2>
   <br>
   <br>
   <div class="container d-flex flex-wrap justify-content-center">
@@ -46,71 +45,56 @@
   <hr>
   <div class="container w-75">
 
-    <!-- Les couleurs de base de Bootstrap -->
-    <p class="text-primary">.text-primary</p>
-    <p class="text-secondary">.text-secondary</p>
-    <p class="text-success">.text-success</p>
-    <p class="text-danger">.text-danger</p>
-    <p class="text-warning">.text-warning</p>
-    <p class="text-info">.text-info</p>
-    <p class="text-light">.text-light</p>
-    <p class="text-dark">.text-dark</p>
-    <p class="text-muted">.text-muted</p>
-    <p class="text-white">.text-white</p>
+    <!-- Largeur -->
+    <h2>Largeur</h2>
+    <div class="w-25 bg-success p-3">Width 25%</div>
+    <div class="w-50 bg-success p-3">Width 50%</div>
+    <div class="w-75 bg-success p-3">Width 75%</div>
+    <div class="w-100 bg-success p-3">Width 100%</div>
+    <div class="w-auto bg-success p-3">Width Auto</div>
 
-    <!-- On peut également faire les links -->
     <br>
     <br>
-    <p><a href="#" class="text-primary">Primary link</a></p>
-    <p><a href="#" class="text-secondary">Secondary link</a></p>
-    <p><a href="#" class="text-success">Success link</a></p>
 
+    <!-- Hauteurs -->
+    <h2>Hauteurs</h2>
+    <div style="height: 300px; border: 1px solid #333;">
+      <div class="h-25 bg-primary d-inline-block">Height 25%</div>
+      <div class="h-50 bg-primary d-inline-block">Height 50%</div>
+      <div class="h-75 bg-primary d-inline-block">Height 75%</div>
+      <div class="h-100 bg-primary d-inline-block">Height 100%</div>
+      <div class="h-auto bg-primary d-inline-block">Height Auto</div>
+    </div>
 
-    <!-- Les backgrounds ! -->
     <br>
     <br>
-    <div class="bg-primary p-3 mb-2 text-white">.bg-primary</div>
-    <div class="bg-secondary p-3 mb-2 text-white">.bg-secondary</div>
-    <div class="bg-success p-3 mb-2 text-white">.bg-success</div>
-    <div class="bg-danger p-3 mb-2 text-white">.bg-danger</div>
-    <div class="bg-warning p-3 mb-2 text-dark">.bg-warning</div>
 
-    <!--  invisible -->
-    <p class="invisible">Hello World</p>
+    <!-- Bordures -->
+    <h2>Bordures</h2>
+    <div class="border p-3 mb-2 bg-light">Regular</div>
+    <div class="border-top p-3 mb-2 bg-light">Border Top</div>
+    <div class="border-bottom p-3 mb-2 bg-light">Border Bottom</div>
+    <div class="border-right p-3 mb-2 bg-light">Border Right</div>
+    <div class="border-left p-3 mb-2 bg-light">Border Left</div>
 
+    <br>
+    <br>
 
-
-
-
-
-
-
-
-
-
+    <!-- Couleurs -->
+    <h2>Couleurs</h2>
+    <div class="border border-primary p-3 mb-2 bg-light">Primary</div>
+    <div class="border border-secondary p-3 mb-2 bg-light">Secondary</div>
+    <div class="border border-success p-3 mb-2 bg-light">Success</div>
 
 
+    <br>
+    <br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Radius -->
+    <h2>Radius</h2>
+    <div class="rounded p-3 mb-2 bg-light">Rounded</div>
+    <div class="border rounded-bottom border-primary p-3 mb-2 bg-light">Rounded Bottom</div>
+    <div class="rounded-circle p-3 mb-2 bg-light">Rounded Circle</div>
 
   </div>
 </body>

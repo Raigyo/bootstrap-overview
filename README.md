@@ -52,8 +52,35 @@ What is the default size of h5 Bootstrap heading?
 
 ### Align
 
+### Grid
+
+Extra small: <576px
+
+Small: ≥576px et <768px
+
+Medium: ≥768px et <992px
+
+Large: ≥992px et <1200px
+
+Extra large: ≥1200px
+
+Note:
+
+The "col-xs-" class does not exist, when we switch to extra-small mode, below 576px, we directly put col-x to define the number of columns in extra small.
+
+Ex:
+
+```html
+<div class="col-6 col-sm-4 col-md-6 col-lg-10"></div>
+```
+
+So this div will take: 6 columns in extra small, 4 in small, 6 in medium and finally 10 in Large.
+
 ## Useful links
 
 - [Bootstrap](https://getbootstrap.com/)
-- [Ziratsu/Projet1Bulma](https://github.com/Ziratsu/Bac-a-Sable-1)
+- [Ziratsu/Bac-a-Sable-1](https://github.com/Ziratsu/Bac-a-Sable-1)
+- [Ziratsu/Bac-a-Sable-2-Grille](https://github.com/Ziratsu/Bac-a-Sable-2-Grille)
+- [Ziratsu/Bac-a-Sable-3-Composants](https://github.com/Ziratsu/Bac-a-Sable-3-Composants)
+- [Ziratsu/Bac-a-Sable-4-JavaScript](https://github.com/Ziratsu/Bac-a-Sable-4-JavaScript)
 - [Ziratsu/ProjetBootstrapFormation](https://github.com/Ziratsu/ProjetBootstrapFormation)
