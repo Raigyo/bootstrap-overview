@@ -2,7 +2,7 @@
 
 _April 2021_
 
-> 🔨 Overview and exemple. From Udemy [Bootstrap en partant de Zéro - Enzo Ustariz](https://www.udemy.com/course/bootstrap-en-partant-de-zero).
+> 🔨 Overview and exemple with "Easy Job" site. From Udemy [Bootstrap en partant de Zéro - Enzo Ustariz](https://www.udemy.com/course/bootstrap-en-partant-de-zero).
 
 ---
 
