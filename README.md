@@ -12,13 +12,56 @@ Quickly design and customize responsive mobile-first sites with Bootstrap, the w
     <img src="_readme-img/logo_bootstrap.jpg">
 </h1>
 
+<h1 align="center">
+    <img src="_readme-img/site-capture.png">
+</h1>
+
 ## Demo on Github pages
+
+- [Overview](https://raigyo.github.io/bootstrap-overview/overview/01-content/1_Titre.html)
+- [Site Easy Job](https://raigyo.github.io/bootstrap-overview/)
 
 ## Overview
 
-### Titles and typo
+### Content
 
-#### Titles
+- Title and Typography
+- Alignment and Display
+- Marge, Padding
+- Colors and Backgrounds
+- Size and Borders
+- Floats and Fixed position
+- Images
+
+### Grid
+
+- Grid
+- Alignment
+- Flexbox
+- Margin, Wrap and Order
+
+### Component
+
+- Buttons
+- Navbars
+- Lists
+- Forms
+- Inputs
+- The tables
+- The cards
+- Jumbotron
+- Alerts
+- Progress bars
+
+### Javascript / JQuery
+
+- Carousel
+- Collapse
+- Popover & Tooltips
+- Modals
+- Scroll
+
+## Notes
 
 Body default:
 
@@ -49,8 +92,6 @@ What is the default size of h5 Bootstrap heading?
 `.display-2` 5.5r / 82.5px
 `.display-3` 4.5rem / 67.5px
 `.display-4` 3.5rem / 52.5px
-
-### Align
 
 ### Grid
 
