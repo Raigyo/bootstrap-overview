@@ -19,7 +19,7 @@ Quickly design and customize responsive mobile-first sites with Bootstrap, the w
 ## Demo on Github pages
 
 - [Overview](https://raigyo.github.io/bootstrap-overview/overview/01-content/1_Titre.html)
-- [Site Easy Job](https://raigyo.github.io/bootstrap-overview/)
+- [Site Easy Job](https://raigyo.github.io/bootstrap-overview/index.html)
 
 ## Overview
 
